@@ -14,7 +14,8 @@ Example to test the package:
 ```
 # An example, the same as used in the Kalman filtering example in the RcppArmadillo package
 # See http://dirk.eddelbuettel.com/papers/RcppArmadillo-intro.pdf
-
+  
+  library(myKalman)
   data(pos)
   z <- pos
   dt <- 1
