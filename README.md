@@ -11,7 +11,7 @@ Open and run Medium.R. The data pos.txt is used in Medium.R
 Install package myKalman_1.0.tar.gz.
 Example to test the package:
 
-`
+```
 # An example, the same as used in the Kalman filtering example in the RcppArmadillo package
 # See http://dirk.eddelbuettel.com/papers/RcppArmadillo-intro.pdf
 
@@ -41,4 +41,5 @@ Example to test the package:
   # Plot of the original and estimated trajectories
   plot(z[,1],z[,2],pch=1,col=1,xlab="x",ylab="y")
   points(results$Y[,1],results$Y[,2],pch=2,col=2)
-  legend("topleft",legend=c('Original','Estimated'),col=1:2,pch=1:2)`
+  legend("topleft",legend=c('Original','Estimated'),col=1:2,pch=1:2)
+  ```
