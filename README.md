@@ -1,5 +1,5 @@
 # RcppTests
-Kalman Filter Implementation in Rcpp
+Doing the essential tests involving Kalman filter implementations
 
 ## Easy Test
 Open and run Easy.R
